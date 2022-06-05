@@ -1,0 +1,17 @@
+.container {
+    display: grid;
+    grid: 85px 85px 85px 85px 85px 85px / 85px 85px 85px 85px 85px 85px 85px ;
+    gap: 1px;
+    margin: 50px auto;
+}
+
+.container > div {
+    display: flex;
+    border: 1px solid blue;
+   align-items: center;
+   justify-content: center;
+}
+
+.winner {
+    background-color: greenyellow !important;
+}
